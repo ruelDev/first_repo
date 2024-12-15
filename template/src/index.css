@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Poppins";
+    src: local("poppins"),
+    url("./fonts/poppins/Poppins-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Shojumaru";
+    src: local("shojumaru"),
+    url("./fonts/shojumaru/Shojumaru-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "RoundyRainbows";
+    src: local("roundy_rainbows"),
+    url("./fonts/roundy_rainbows/Roundy Rainbows.ttf") format("truetype");
+}

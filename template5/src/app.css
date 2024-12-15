@@ -1,0 +1,31 @@
+.ff-body {
+    font-family: "Poppins", sans-serif;
+}
+
+.ff-title {
+    font-family: "Shojumaru", sans-serif;
+}
+
+.ff-subtitle {
+    font-family: "RoundyRainbows", sans-serif;
+}
+
+main {
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "OriginTech", sans-serif !important;
+}
+
+.upper-layer {
+    /*the alpha value controls the transparency*/
+    background: rgba( 255, 255, 255, 0.3 );
+
+    /* This controls the blurring effect*/
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+
+    /*Adding the shadow*/
+    box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.18 );
+}

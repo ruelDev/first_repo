@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Poppins";
+    src: local("poppins"),
+    url("./fonts/poppins/Poppins-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Shojumaru";
+    src: local("shojumaru"),
+    url("./fonts/shojumaru/Shojumaru-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "RoundyRainbows";
+    src: local("roundy_rainbows"),
+    url("./fonts/roundy_rainbows/Roundy Rainbows.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OriginTech";
+    src: local("origin_tech"),
+    url("fonts/origin_tech/OriginTech personal use.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "FunkyDream";
+    src: local("funcky_dream"),
+    url("fonts/funky_dream/Funky Dream.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "LittleOne";
+    src: local("little_one"),
+    url("fonts/little_one/LittleOneDemoRegular.ttf") format("truetype");
+}
